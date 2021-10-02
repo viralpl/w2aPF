@@ -21,7 +21,7 @@ public class LoginTest {
 		
 		HomePage home = new HomePage(driver);
 		home.selGotoCourse().gotoBuynow();
-		Thread.sleep(1000);
+		Thread.sleep(5000);
 		//changes to 1000
 		home.apiGotoCourse().gotoBuynow();
 		
